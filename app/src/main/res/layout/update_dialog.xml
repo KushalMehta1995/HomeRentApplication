@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/imageViewRecord"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/addphoto" />
+
+    <EditText
+        android:id="@+id/edtName1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/edtAddress1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:hint="Enter Address"/>
+
+    <EditText
+        android:id="@+id/edtNumber1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:hint="Enter Number"/>
+
+    <EditText
+        android:id="@+id/edtRoomsize1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Room"
+        android:layout_marginTop="7dp"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/edtPrice1"
+        android:layout_width="wrap_content"
+        android:hint="Enter Price"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:ems="10"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="7dp" />
+
+</LinearLayout>
